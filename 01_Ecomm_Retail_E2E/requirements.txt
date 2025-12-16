@@ -1,0 +1,8 @@
+pandas
+numpy
+selenium
+sqlalchemy
+psycopg2
+scikit-learn
+matplotlib
+jupyter
