@@ -109,47 +109,42 @@ Data-Analytics-Portfolio/
 
 ---
 
+### 📊 Industry Overview
+
 Just for the overview am providing all the core sector/industries data analyst work on (Just for information) :
-| # | Vertical Name<br>[70% work is in 3 vertical & desc/diag] | Economic Sector Classification | Industries Included (ICI, GICS, ISIC) | Analyst Focus Topic/proj/example |
-| - | ----------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1 | Energy, Resources & Utilities<br>[Dominant Analytics : Prescriptive] | Primary (Mining)<br>Secondary (Power/Refining) | • India Core: Coal, Crude Oil, Natural Gas, Refinery Products, Electricity.<br>• Global: Renewable Energy, Water Supply, Waste Management. | • Demand Forecasting & Load Balancing<br>• Predictive Maintenance (Asset Management)<br>• Production Optimization, EDA<br>• Environmental Impact Analysis |
-| 2 | Agriculture, Food & Staples<br>[Dominant Analytics : Descriptive] | Primary (Farming)<br>Secondary (Processing) | • India Core: Fertilizers.<br>• Global: Farming, Fishing, Forestry, Food & Beverage Processing (FMCG). | • Yield Prediction & Crop Modeling<br>• Supply Chain Cold-Chain Integrity<br>• Commodity Price Trend Analysis<br>• Soil & Weather Pattern Correlation<br>• Inventory Spoilage Reduction |
-| 3 | Heavy Manufacturing (Industrial 4.0)<br>[Dominant Analytics : Diagnostic] | Secondary (Production) | • India Core: Steel, Cement.<br>• Global: Automotive, Aerospace, Chemicals, Machinery, Textiles | • Quality Control (Six Sigma/Defect Rates)<br>• OEE (Overall Equipment Effectiveness)<br>• Supply Chain & Vendor Risk Management<br>• Production Cycle Time Analysis<br>• Safety Incident Reporting |
-| 4 | Construction & Real Estate<br>[Dominant Analytics : Descriptive] | Secondary (Building)<br>Tertiary (Leasing/Sales) | • Global: Infrastructure, Residential & Commercial Real Estate, PropTech, Smart Cities. | • Project Cost Overrun Estimation<br>• Market Valuation & Price Indices<br>• Rental Yield & ROI Analysis<br>• Geographic/Spatial (GIS) Analysis<br>• Occupancy & Vacancy Rate Tracking |
-| 5 | Logistics, Trade & Consumer Services<br>[Dominant Analytics : Predictive] | Tertiary (Service & Distribution) | • Global: Retail, E-commerce, Wholesale, Transport (Rail/Air/Ship), Warehousing, Tourism. | • Route Optimization & Fleet Management<br>• Customer Segmentation & Churn Analysis<br>• Market Basket Analysis (Cross-selling)<br>• Delivery Time Performance Metrics<br>• Inventory Turnover & Demand Planning |
-| 6 | BFSI (Banking, Fin. Service & Insurance)<br>[Dominant Analytics : Predictive] | Tertiary (Service)<br>Quaternary (Analysis) | • Global: Commercial Banks, Insurance, Fintech, Stock Markets, Wealth Management. | • Credit Risk Assessment & Scoring<br>• Fraud Detection Algorithms<br>• Customer Lifetime Value (CLV)<br>• Portfolio Performance Analysis<br>• Claims Processing Efficiency |
-| 7 | Healthcare & Life Science<br>[Dominant Analytics : Diagnostic] | Tertiary (Care)<br>Quaternary (R&D) | • Global: Hospitals, Pharmaceuticals, Biotech, Medical Devices, Public Health. | • Patient Readmission Prediction<br>• Clinical Trial Data Analysis<br>• Epidemiology & Disease Mapping<br>• Hospital Resource Utilization<br>• Drug Efficacy Modeling |
-| 8 | Tech, Media & Strategy<br>[Dominant Analytics : Desc/Diagnostic] | Quaternary (Knowledge)<br>Quinary (Decision Making) | • Global: IT Services, Telecom, Education, Media, Sports, Government Policy, NGOs. | • Sentiment Analysis (NLP)<br>• User Engagement & A/B Testing<br>• Policy Impact Assessment<br>• Educational Assessment Metrics<br>• Player/Team Performance Analytics |
 
----
+#### 🛠️ Technical Stack & Workflow
 
-## 🛠️ Tools & Technologies Used
+| Analytics Phase | Primary Tools                | Secondary Tools         |
+| --------------- | ---------------------------- | ----------------------- |
+| Descriptive     | SQL, PowerBI, Tableau        | Excel                   |
+| Diagnostic      | Excel, SQL, PowerBI, Tableau | Python                  |
+| Predictive      | Python (Matplotlib/Seaborn)  | SQL                     |
+| Prescriptive    | Python                       | Excel, PowerBI, Tableau |
 
-I utilize a variety of tools to process, analyze, and visualize data :
+#### **Tools Specifics**
 
-### **Programming & Scripting : SQL (The "Fetcher") || Python (The "Transformer")**
+- **Python(TRANSFORMER - Cleaning & Modelling):** Pandas, NumPy, Scikit-Learn (ML), Matplotlib/Seaborn(DataViz).
+- **SQL (FETCHER - Large Dataset):** PostgreSQL (Mostly), MySQL.
+- **BI & Viz:** PowerBI (DAX, Power-Query), Tableau, Excel (AUDITOR - VBA/Pivot/Lookups).
+- **Others:** Git, GitHub (Pages/Repo), VSCode, Jupyter, pgAdmin/Dbeaver (PostgreSQL).
 
-- **Python (Process Advanced Cleaning & Modeling):** Pandas, NumPy, AI-ML-Predictive (Scikit-Learn), Dataviz (Matplotlib/Seaborn) etc.
-- **SQL (For Large Dataset):** PostgreSQL (Mostly), MySQL
-
-### **Dataviz (Viz & BI + No-code/Low-code Tools) : Excel (The "Auditor") || PowerBI/Tableau (The "Visualizer")**
-
-- **Excel (For Small Dataset - Inspection & Quick Analysis):** Pivot Tables, Lookups, VBA
-- **Power BI/Tableau:** DAX, Power Query (Desktop : PowerBI Desktop/Tableau public || Web : Publish to web/Tableau public)
-
-### **Other Tools**
-
-- **Jupyter Notebooks:** For online collab python.
-- **Git & GitHub:** For open source collab to deployment & presentation of project ie. ALL IN ONE
-- **Others:** VSCode, pgAdmin/Dbeaver (PostgreSQL)
+  | #   | Vertical Name<br>[70% work is in 3 vertical & desc/diag]                      | Economic Sector Classification                      | Industries Included (ICI, GICS, ISIC)                                                                                                      | Analyst Focus Topic/proj/example                                                                                                                                                                                 |
+  | --- | ----------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | 1   | Energy, Resources & Utilities<br>[Dominant Analytics : Prescriptive]          | Primary (Mining)<br>Secondary (Power/Refining)      | • India Core: Coal, Crude Oil, Natural Gas, Refinery Products, Electricity.<br>• Global: Renewable Energy, Water Supply, Waste Management. | • Demand Forecasting & Load Balancing<br>• Predictive Maintenance (Asset Management)<br>• Production Optimization, EDA<br>• Environmental Impact Analysis                                                        |
+  | 2   | Agriculture, Food & Staples<br>[Dominant Analytics : Descriptive]             | Primary (Farming)<br>Secondary (Processing)         | • India Core: Fertilizers.<br>• Global: Farming, Fishing, Forestry, Food & Beverage Processing (FMCG).                                     | • Yield Prediction & Crop Modeling<br>• Supply Chain Cold-Chain Integrity<br>• Commodity Price Trend Analysis<br>• Soil & Weather Pattern Correlation<br>• Inventory Spoilage Reduction                          |
+  | 3   | Heavy Manufacturing (Industrial 4.0)<br>[Dominant Analytics : Diagnostic]     | Secondary (Production)                              | • India Core: Steel, Cement.<br>• Global: Automotive, Aerospace, Chemicals, Machinery, Textiles                                            | • Quality Control (Six Sigma/Defect Rates)<br>• OEE (Overall Equipment Effectiveness)<br>• Supply Chain & Vendor Risk Management<br>• Production Cycle Time Analysis<br>• Safety Incident Reporting              |
+  | 4   | Construction & Real Estate<br>[Dominant Analytics : Descriptive]              | Secondary (Building)<br>Tertiary (Leasing/Sales)    | • Global: Infrastructure, Residential & Commercial Real Estate, PropTech, Smart Cities.                                                    | • Project Cost Overrun Estimation<br>• Market Valuation & Price Indices<br>• Rental Yield & ROI Analysis<br>• Geographic/Spatial (GIS) Analysis<br>• Occupancy & Vacancy Rate Tracking                           |
+  | 5   | Logistics, Trade & Consumer Services<br>[Dominant Analytics : Predictive]     | Tertiary (Service & Distribution)                   | • Global: Retail, E-commerce, Wholesale, Transport (Rail/Air/Ship), Warehousing, Tourism.                                                  | • Route Optimization & Fleet Management<br>• Customer Segmentation & Churn Analysis<br>• Market Basket Analysis (Cross-selling)<br>• Delivery Time Performance Metrics<br>• Inventory Turnover & Demand Planning |
+  | 6   | BFSI (Banking, Fin. Service & Insurance)<br>[Dominant Analytics : Predictive] | Tertiary (Service)<br>Quaternary (Analysis)         | • Global: Commercial Banks, Insurance, Fintech, Stock Markets, Wealth Management.                                                          | • Credit Risk Assessment & Scoring<br>• Fraud Detection Algorithms<br>• Customer Lifetime Value (CLV)<br>• Portfolio Performance Analysis<br>• Claims Processing Efficiency                                      |
+  | 7   | Healthcare & Life Science<br>[Dominant Analytics : Diagnostic]                | Tertiary (Care)<br>Quaternary (R&D)                 | • Global: Hospitals, Pharmaceuticals, Biotech, Medical Devices, Public Health.                                                             | • Patient Readmission Prediction<br>• Clinical Trial Data Analysis<br>• Epidemiology & Disease Mapping<br>• Hospital Resource Utilization<br>• Drug Efficacy Modeling                                            |
+  | 8   | Tech, Media & Strategy<br>[Dominant Analytics : Desc/Diagnostic]              | Quaternary (Knowledge)<br>Quinary (Decision Making) | • Global: IT Services, Telecom, Education, Media, Sports, Government Policy, NGOs.                                                         | • Sentiment Analysis (NLP)<br>• User Engagement & A/B Testing<br>• Policy Impact Assessment<br>• Educational Assessment Metrics<br>• Player/Team Performance Analytics                                           |
 
 ---
 
 ## 💻 How to Run These Projects
 
 If you wish to run the code locally, follow the steps below:
-
----
 
 ### 1️⃣ Clone the repository
 
