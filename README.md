@@ -19,7 +19,7 @@ Data-Analytics-Portfolio/
 │   # Focus: Engineering + Full Stack Analytics (Python -> SQL -> Tableau)
 │   # -----------------------------------------------------------------------
 ├── 01_Ecomm_Retail_E2E/
-│   ├── README.md                <-- Prescriptive Analytics (Recommendation) & Project-specific docs
+│   ├── README.md                <-- 𝗣𝗿𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (Recommendation) & Project-specific docs
 │   ├── requirements.txt         <-- Libraries: selenium, pandas, sqlalchemy, scikit-learn
 │   │
 │   ├── data/
@@ -30,15 +30,15 @@ Data-Analytics-Portfolio/
 │   │   ├── 01_scraper_bot.py    <-- Selenium/BS4 script
 │   │   └── 02_cleaning_etl.py   <-- Pandas script to clean & push to SQL
 │   │
-│   ├── sql/                        <-- Diagnostic Analytics (Database Logic)
+│   ├── sql/                        <-- 𝗗𝗶𝗮𝗴𝗻𝗼𝘀𝘁𝗶𝗰 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (Database Logic)
 │   │   ├── schema_setup.sql        <-- CREATE TABLE code (Star Schema design)
 │   │   └── analytical_queries.sql  <-- Complex queries used for analysis
 │   │
-│   ├── models/                      <-- Predictive Analytics (ML Models)
+│   ├── models/                      <-- 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (ML Models)
 │   │   ├── churn_prediction.ipynb   <-- Notebook for Customer Churn (Logistic Regression)
 │   │   └── sales_forecasting.ipynb  <-- Notebook for Time Series
 │   │
-│   └── dashboards/                         <-- Descriptive Analytics
+│   └── dashboards/                         <-- 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 │       ├── Retail_Executive_Dashboard.twb  <-- Tableau Workbook
 │       └── images/                         <-- Screenshots of dashboard for the README
 │
@@ -48,11 +48,11 @@ Data-Analytics-Portfolio/
 │   # -----------------------------------------------------------------------
 ├── 02_E-Sports_Chess_Analysis/
 │   ├── README.md
-│   ├── data/                    <-- Diagnostic Analytics (Power Query)
+│   ├── data/                    <-- 𝗗𝗶𝗮𝗴𝗻𝗼𝘀𝘁𝗶𝗰 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (Power Query)
 │   │   ├── raw_games.csv        <-- Kaggle dataset
 │   │   └── processed_excel.xlsx <-- The Excel file with Power Query steps
 │   │
-│   └── dashboards/                      <-- Descriptive Analytics
+│   └── dashboards/                      <-- 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀
 │       ├── Chess_Opening_Strategy.pbix  <-- Power BI File
 │       └── images/                      <-- Screenshots of dashboard
 │
@@ -68,10 +68,10 @@ Data-Analytics-Portfolio/
 │   │
 │   ├── analysis/
 │   │   ├── 01_EDA_and_cleaning.ipynb    <-- Diagnostic Analytics (Correlation matrix)
-│   │   └── 02_risk_prediction_model.ipynb <-- Predictive Analytics (Logistic Reg/Decision Tree)
+│   │   └── 02_risk_prediction_model.ipynb <-- 𝗣𝗿𝗲𝗱𝗶𝗰𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (Logistic Reg/Decision Tree)
 │   │
 │   └── strategy_report/
-│       └── Credit_Risk_Strategy.pdf     <-- Prescriptive Analytics (Recommendation)
+│       └── Credit_Risk_Strategy.pdf     <-- 𝗣𝗿𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝘃𝗲 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 (Recommendation)
 ```
 
 ---
